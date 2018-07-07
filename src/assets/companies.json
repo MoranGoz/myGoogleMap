@@ -1,0 +1,9 @@
+{
+    "Retail": "מגה",
+    "Branches":[{"name":"Tel aviv",    "latitude" : "1",    "longitude": "1" },
+                 {"name: "Ramat gan",    "latitude" : "1" ,    "longitude" : "1"},
+                 {name: "Givatayim ",    "latitude" : "1" ,    "longitude": "1"}
+     ]
+
+
+

@@ -1,0 +1,24 @@
+
+GOOGLE MAP 
+
+GOOGLE PLACES
+1. האתר של הNPM
+ https://www.npmjs.com/package/ngx-google-places-autocomplete
+
+להתקין מהNPM את האוטוקומפליט 
+
+npm install ngx-google-places-autocomplete
+
+להתקין את ה 3 האלה :
+1. cdk
+2.flex layout
+3. material 
+npm install --save @angular/material @angular/cdk @angular/animations
+
+
+*4. מחוות
+
+npm install --save hammerjs
+
+5.flex
+npm install @angular/flex-layout@latest --save
