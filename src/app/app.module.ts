@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule, MatIconModule, MatToolbarModule, MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+
+import * as $ from 'jquery';
 @NgModule({
   imports: [
     FlexLayoutModule,

@@ -15,10 +15,20 @@ npm install ngx-google-places-autocomplete
 3. material 
 npm install --save @angular/material @angular/cdk @angular/animations
 
-
 *4. מחוות
 
 npm install --save hammerjs
 
 5.flex
 npm install @angular/flex-layout@latest --save
+
+6. jquery
+npm install jquery — save
+
+* לעשות אימפורט במודול - שיגדיר ש$ זה JQuery
+import * as $ from ‘jquery’;
+
+7.google font?
+
+לזכרור 
+<div  *ngIf="userType === 'motoboy'" class="card" > 
