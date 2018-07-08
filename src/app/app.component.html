@@ -1,2 +1,37 @@
+<div class="search">
+  <h1>Enter a location to find a nearby Supermarket store</h1>
+  <input ngx-google-places-autocomplete [options]='options' #placesRef="ngx-places" (onAddressChange)="handleAddressChange($event)"/>
+  <button class="btn" (click)='searchSuperMarket()' mat-raised-button color="primary">Search</button>
+  <!-- <agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map> -->
+</div>
 
-<input ngx-google-places-autocomplete [options]='options' #placesRef="ngx-places" (onAddressChange)="handleAddressChange($event)"/>
+
+<!-- <div class="resaults" *ngIf="search==1">
+    <div ngIf="closestSupermarket.length==0">
+      <h4>sorry ,there is no super market nnearbay</h4>
+    </div>
+
+    <button class="btn" (click)='findClosestLocation()' mat-raised-button color="primary">New search</button>
+    <h1>close by</h1>
+    <mat-table [dataSource]="dataSource">
+
+      <ng-container matColumnDef="orderId">
+        <mat-header-cell *matHeaderCellDef> firm </mat-header-cell>
+        <mat-cell *matCellDef="let order"> {{order.orderId}} </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="customerId">
+        <mat-header-cell *matHeaderCellDef> name </mat-header-cell>
+      </ng-container>
+      <ng-container matColumnDef="customerPhone">
+        <mat-header-cell *matHeaderCellDef>distance </mat-header-cell>
+        <mat-cell *matCellDef="let order">
+          <div *ngIf="order.customerId != null">{{order.customer.phone}}</div>
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div> -->

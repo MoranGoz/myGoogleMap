@@ -1,4 +1,13 @@
 
+h1{
+  text-align: center;
+}
+.container {
+  display: flex;
+  padding: 10px;
+}
+
 agm-map {
   height: 300px;
+  width: 60%;
 }

@@ -1,0 +1,26 @@
+ {
+    "Mega": {
+        "branch1": {"Name":"Ben Yehuda","Latitude": "-48.18562", "Longitude": "46.22114"},
+        "branch2": {"Name":"dizingoff","Latitude": "-58.18562", "Longitude": "47.22114"},
+        "branch3": {"Name":"haifa","Latitude": "-68.18562", "Longitude": "48.22114"},
+        "branch4": {"Name":"nazeret","Latitude": "-78.18562", "Longitude": "49.22114"}
+    },
+    "Rami": {
+        "branch1": {"Name":"Ben Yehuda","Latitude": "-18.18562", "Longitude": "46.22114"},
+        "branch2": {"Name":"dizingoff","Latitude": "-28.18562", "Longitude": "47.22114"},
+        "branch3": {"Name":"pinkas","Latitude": "-38.18562", "Longitude": "48.22114"},
+        "branch4": {"Name":"Namir","Latitude": "-25.18562", "Longitude": "49.22114"}
+    },
+    "Shufersal": {
+        "branch1": {"Name":"Ben Yehuda","Latitude": "-15.18562", "Longitude": "46.22114"},
+        "branch2": {"Name":"dizingoff","Latitude": "-25.18562", "Longitude": "47.22114"},
+        "branch3": {"Name":"Ben","Latitude": "-35.18562", "Longitude": "48.22114"},
+        "branch4": {"Name":"Ben","Latitude": "-45.18562", "Longitude": "49.22114"}
+    },
+    "cofix": {
+        "branch1": {"Name":"Ben Yehuda","Latitude": "-12.18562", "Longitude": "46.22114"},
+        "branch2": {"Name":"rabin","Latitude": "-22.18562", "Longitude": "47.22114"},
+        "branch3": {"Name":"befin","Latitude": "-33.18562", "Longitude": "48.22114"},
+        "branch4": {"Name":"hazerem","Latitude": "-43.18562", "Longitude": "49.22114"}
+    }
+}
